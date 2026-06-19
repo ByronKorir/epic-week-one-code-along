@@ -1,0 +1,16 @@
+.nav-logo{
+    width: 100px;
+    border-radius: 20px;
+}
+#nav-links{
+    list-style: none;
+}
+
+#hero{
+   /* height: 90vh;  */
+   background-image:url("https://static.photos/technology/1200x630/137.webp");
+   background-size: cover;
+}
+#hero h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
