@@ -82,63 +82,54 @@
       <div class="my-5">
         <h3 class="text-center mb-4">Contact Us</h3>
 
-        <div class="container">
-          <div class="row justify-content-center">
+       <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <div class="card">
+              <form>
+                <!-- name  -->
+                 <div class="m-2">
+                 <label class="form-label">Name</label>
+                 <input
+                 class="form-control"
+                 type="text"
+                 placeholder="John Doe"
+                 required
+                 />
+                 </div>
+                <!-- email -->
 
-            <div class="col-md-8">
-
-              <div class="card shadow rounded-3 p-4">
-
-                <form>
-
-                  <!-- Name -->
-                  <div class="mb-3">
-                    <label class="form-label">Name</label>
-                    <input 
-                      type="text" 
-                      class="form-control" 
-                      placeholder="John Doe"
-                      required
-                    />
-                  </div>
-
-                  <!-- Email -->
-                  <div class="mb-3">
-                    <label class="form-label">Email</label>
-                    <input 
-                      type="email" 
-                      class="form-control" 
-                      placeholder="john@example.com"
-                      required
-                    />
-                  </div>
-
-                  <!-- Description -->
-                  <div class="mb-3">
+                 <div class="m-2">
+                 <label class="form-label">Email</label>
+                 <input
+                 class="form-control"
+                 type="email"
+                 placeholder="email@example.com"
+                 required
+                 />
+                 </div>
+                 <!-- message  -->
+                  <div class="m-2">
                     <label class="form-label">Message</label>
-                    <textarea 
-                      class="form-control" 
-                      rows="4"
-                      placeholder="Write your message here..."
-                      required
+                    <textarea
+                    class="form-control"
+                    placeholder="Write your message here ..."
+                    required
+                    rows="4"
                     ></textarea>
+                 </div>
+                 <!-- button -->
+                  <div class="m-4 d-grid">
+                    <button class="btn btn-success rounded">Submit</button>
                   </div>
-
-                  <!-- Button -->
-                  <div class="d-grid">
-                    <button class="btn btn-success rounded-pill">
-                      Submit
-                    </button>
-                  </div>
-
-                </form>
-
-              </div>
+              </form>
 
             </div>
-
           </div>
+
         </div>
+
+       </div>
       </div>
 
        <!-- footer -->
@@ -178,7 +169,7 @@
             <hr class="border-secondary">
 
             <div class="text-center">
-              <small class="text-muted">
+              <small class="text-light">
                 © 2026 My Website. All rights reserved.
               </small>
             </div>
